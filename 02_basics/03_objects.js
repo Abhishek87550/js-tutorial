@@ -9,7 +9,7 @@ const mySym = Symbol("key1")
 const JsUser = {
     name: "Hitesh",
     "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    [mySym]: "mykey1",  //to represent a symbol always use [] otherwise it will be considered as a normal key value pair
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",

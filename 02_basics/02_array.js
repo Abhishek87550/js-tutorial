@@ -6,7 +6,7 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-// const allHeros = marvel_heros.concat(dc_heros)
+// const allHeros = marvel_heros.concat(dc_heros)  //return a new array 
 // console.log(allHeros);
 
 const all_new_heros = [...marvel_heros, ...dc_heros]
@@ -15,14 +15,14 @@ const all_new_heros = [...marvel_heros, ...dc_heros]
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 
-const real_another_array = another_array.flat(Infinity)
+const real_another_array = another_array.flat(Infinity)  // make all the subarray to a single array or to any depth
 console.log(real_another_array);
 
 
 
 console.log(Array.isArray("Hitesh"))
 console.log(Array.from("Hitesh"))
-console.log(Array.from({name: "hitesh"})) // interesting
+console.log(Array.from({name: "hitesh"})) // interesting it cannot directly convert object to the array we have to specify key or value 
 
 let score1 = 100
 let score2 = 200

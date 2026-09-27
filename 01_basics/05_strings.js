@@ -3,12 +3,15 @@ const repoCount = 50
 
 // console.log(name + repoCount + " Value");
 
+//for concatination use `` 
+
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
 const gameName = new String('hitesh-hc-com')
 
-// console.log(gameName[0]);
-// console.log(gameName.__proto__);
+// console.log(gameName[0]);    it is an object type with index as key and value as the value of the word 
+
+// console.log(gameName.__proto__); 
 
 
 // console.log(gameName.length);
